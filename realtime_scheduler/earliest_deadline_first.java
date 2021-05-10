@@ -9,7 +9,7 @@ class process
 	public int arrival_time;
 	public int deadline;
 
-	public process(int process_id, int capacity, int period, int arrival_time, int deadline)
+	public process(int process_id, int capacity, int period, int arrival_time, int deadline)      // capacity = exec_time
 	{
 		this.process_id = process_id;
 		this.capacity = capacity;
